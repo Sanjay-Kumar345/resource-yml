@@ -23,3 +23,7 @@ steps:
 - script: |
     terraform plan
   displayName: 'Terraform Plan'
+
+- script: |
+    terraform appy --auto-approve
+  displayName: 'Terraform Plan'
