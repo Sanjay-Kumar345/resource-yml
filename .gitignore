@@ -1,0 +1,25 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Variables
+*.tfvars
+*.tfvars.json
+
+# Plans
+*.tfplan
+
+# Logs
+crash.log
+
+# VS Code
+.vscode/
+
+# Azure DevOps
+.azure-pipelines/
+
+# OS files
+.DS_Store
+Thumbs.db
