@@ -25,5 +25,5 @@ steps:
   displayName: 'Terraform Plan'
 
 - script: |
-    terraform appy --auto-approve
-  displayName: 'Terraform Plan'
+    terraform apply --auto-approve
+  displayName: 'Terraform Apply'
